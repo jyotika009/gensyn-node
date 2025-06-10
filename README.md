@@ -1,0 +1,21 @@
+✅ Step-by-Step Setup (Correct Repo)
+1. Clean Up & Re-clone the Right Repo
+bash
+Copy code
+cd ~
+rm -rf rl-swarm
+git clone https://github.com/gensyn-ai/rl-swarm.git
+cd rl-swarm
+2. Create & Activate Virtual Environment
+bash
+Copy code
+python3 -m venv .venv
+source .venv/bin/activate
+3. Install the Correct Requirements
+Pick one:
+
+For CPU only:
+
+bash
+Copy code
+pip install -r requirements-cpu.txt
