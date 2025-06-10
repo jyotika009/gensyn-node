@@ -1,5 +1,5 @@
 # ✅ Step-by-Step Setup (Correct Repo)
-**1. Clean Up & Re-clone the Right Repo**
+**1. Clean Up & Re-clone the Right Repo (Before run this command must be save your .pam file )**
 ---
 Copy code
 ```bash
