@@ -9,14 +9,16 @@ git clone https://github.com/gensyn-ai/rl-swarm.git
 cd rl-swarm
 ```
 **2. Create & Activate Virtual Environment**
+---
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 **3. Install the Correct Requirements
 Pick one:**
+---
 
-### For **CPU only**:
+**For CPU only**:
 
 ```bash
 pip install -r requirements-cpu.txt
