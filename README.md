@@ -23,3 +23,16 @@ Pick one:**
 ```bash
 pip install -r requirements-cpu.txt
 ```
+**if you’re reusing an old .pem file:**
+---
+**Copy it to ~/rl-swarm/swarm.pem**
+**Set correct permission:**
+```bash
+cp ~/your_backup/swarm.pem ~/rl-swarm/swarm.pem
+chmod 600 swarm.pem
+```
+**Then launch:**
+---
+```bash
+./run_rl_swarm.sh
+```
